@@ -1,0 +1,110 @@
+/* html {
+  font-size: 10px; 
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+html {
+  background-color: #00539f;
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #00539f;
+  text-shadow: 3px 3px 1px black;
+}
+img {
+  display: block;
+  margin: 0 auto;
+} */
+
+/* styles/style.css */
+
+/* General body styles */
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Header styles */
+h1 {
+  font-size: 24px;
+  color: #000;
+  text-align: left;
+}
+
+/* Paragraph styles */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+
+/* Strong text emphasis */
+strong {
+  color: #333;
+}
+
+/* Image styles */
+img {
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+/* Unordered list styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #eee;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Ordered list styles */
+ol {
+  list-style: none;
+  counter-reset: item;
+  padding: 0;
+}
+
+ol li {
+  counter-increment: item;
+  margin-bottom: 10px;
+}
+
+ol li:before {
+  content: counter(item) ". ";
+  font-weight: bold;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+}
+/* Linking to Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+/* This is a basic example and can be expanded based on specific design requirements. */
